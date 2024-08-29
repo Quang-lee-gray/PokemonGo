@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+}
+
+body{
+    background-image: linear-gradient(45deg, #D8F8F8 25%, transparent 25%, transparent 75%, #D8F8F8 75%), linear-gradient(45deg, #D8F8F8 25%, #C0F0F8 25%, #C0F0F8 75%, #D8F8F8 75%);
+    background-size: 50px 50px;
+    background-position: 0 0 ,25px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ;
+}
+.pokemon{
+    background: #fff;
+    position: fixed;
+    top:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    padding: 30px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+/* Heading */
+
+.pok__heading{
+    background: #0060f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding: 30px 0 30px 0;
+    border-radius: 5px;
+}
+.pok__heading-title{
+    background-image: linear-gradient(45deg, #D8F8F8 25%, transparent 25%, transparent 75%, #D8F8F8 75%), linear-gradient(45deg, #D8F8F8 25%, #C0F0F8 25%, #C0F0F8 75%, #D8F8F8 75%);
+    background-size: 50px 50px;
+    background-position: 0 0 ,25px 25px;
+    color:#000;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.pok__heading-search{
+    padding: 10px;
+    border-radius: 10px;
+}
+.pok__heading-random{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.pok__heading-random:hover{
+    cursor:pointer;
+}
+
+/* Body */
+.pok__body{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.pok__body-image{
+    background-image: linear-gradient(0deg, #f8f8f8 25%, #f0f0f8 25%, #f0f0f8 50%, #f8f8f8 50%, #f8f8f8 75%, #f0f0f8 75%, #f0f0f8 100%);
+    background-size: 80px 80px;
+    border-radius: 30px;
+    width: 280px;
+    margin: 40px;
+    border: 10px solid #F8F898;
+}
+img{
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.pok__body-info{
+    background: #f8f8c0;
+    border-radius: 30px;
+    padding: 20px;
+}
+.pok__info-id,
+.pok__info-height,
+.pok__info-weight,
+.pok__info-ability,
+.pok__info-type{
+    font-size: 20px;
+    color:#606060;
+    padding: 10px;
+}
+.pok__type{
+    display: flex;
+    flex-direction: row;
+}
+.text_type1,
+.text_type2{
+    color:#fff;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 10px;
+}
